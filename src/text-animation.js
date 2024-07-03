@@ -1,12 +1,10 @@
-import { gsap } from "gsap";
+document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(TextPlugin);
+});
 
-gsap.registerPlugin(TextPlugin);
+const textAnimation = document.getElementById("text-animation").textContent;
 
-gsap.to("#textAnimation", {
-  duration: 3,
-  ease: Power1.out,
-  text: {
-    value: "in procurement",
-    padSpace: true,
-  },
+gsap.to(textAnimation, {
+  duration: 2,
+  text: "in procurement",
 });
