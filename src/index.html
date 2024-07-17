@@ -23,7 +23,7 @@
         class="bg-gradient-to-b from-gray-100 to-white absolute top-0 w-full h-[800px] -z-50"
       ></div>
       <!-- HEADER -->
-      <header class="w-full z-50">
+      <header class="w-full lg: max-w-7xl z-50 mx-auto">
         <!-- lg+ -->
         <div class="relative bg-transparent z-50">
           <div class="absolute inset-0"></div>
@@ -63,7 +63,9 @@
 
       <!-- HERO SECTION -->
       <section class="py-16">
-        <div class="md:flex justify-center items-center px-4 lg:px-8 mx-auto">
+        <div
+          class="md:flex justify-center items-center px-4 lg:px-8 mx-auto max-w-7xl"
+        >
           <div class="max-w-7xl md:w-1/2">
             <h1
               class="text-left text-5xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold pb-10 relative text-mee"
@@ -216,28 +218,29 @@
     </div>
 
     <!-- why we do what we do -->
-    <section class="py-12 sm:py-16 lg:py-20 xl:py-24 bg-gray-100">
-      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
-        <div class="md:pl-10">
+    <section class="pt-12 sm:pt-16 lg:pt-20 xl:pt-28">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="">
           <h2 class="text-mee text-4xl lg:text-5xl xl:text-6xl font-bold">
             why we do what we do
           </h2>
           <div
-            class="grid grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-10 items-start justify-start pt-10 md:pt-16 lg:pt-18"
+            class="grid grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-16 mt-20"
           >
-            <div>
+            <!-- grid grid-cols-1 gap-5 mt-12 lg:grid-cols-3 lg:mt-20 lg:gap-x-12 -->
+            <div class="bg-white shadow-xl px-7 pt-4 pb-28 rounded-xl">
               <img src="images/Icons/clock.png" class="w-28 h-28" />
               <p class="text-xl pt-5">
                 to limit the delays that hinder projects
               </p>
             </div>
-            <div>
+            <div class="bg-white shadow-xl px-7 pt-4 rounded-xl">
               <img src="images/Icons/delivery-truck.png" class="w-28 h-28" />
               <p class="text-xl pt-5">
                 to make the lives of developers & procurement managers easier
               </p>
             </div>
-            <div>
+            <div class="bg-white shadow-xl px-7 pt-4 rounded-xl">
               <img src="images/Icons/quality-mark.png" class="w-28 h-28" />
               <p class="text-xl pt-5">
                 to establish a new standard of quality to Africa
@@ -250,28 +253,22 @@
 
     <!-- Z Section -->
     <section class="py-12 sm:py-16 lg:py-20 xl:py-28">
-      <div class="px-4 mx-auto sm:px-6 lg:px-8">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="mx-auto mt-12 sm:mt-16 lg:mt-20">
           <div
             class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 pb-20 items-center"
           >
-            <div class="w-full h-auto justify-self-center">
-              <img
-                src="images/client-img.webp"
-                alt="Image of a meeting with clients (not specifically supplymee.io's clients)."
-              />
-            </div>
             <div class="text-left">
               <h3
-                class="text-4xl md:text-5xl xl:text-6xl font-bold text-adopt mb-5 text-mee"
+                class="text-4xl md:text-5xl xl:text-6xl font-bold mb-5 text-mee"
               >
-                who are our <br />
+                Who are our <br />
                 clients?
               </h3>
               <p
-                class="mt-3 text-lg font-normal text-black-3 mb-2 leading-relaxed"
+                class="mt-3 text-base font-normal text-black-3 mb-2 leading-relaxed"
               >
-                the people who need us belong to various industries, in a wide
+                The people who need us belong to various industries, in a wide
                 variety of job positions. But, all require better service, and a
                 turn-key solution for sourcing products. Some include:
               </p>
@@ -283,52 +280,58 @@
                     src="images/icons/procurement-icon.png"
                     class="w-5 h-5"
                   />
-                  <p class="text-lg">procurement managers</p>
+                  <p class="text-base">procurement managers</p>
                 </div>
                 <div class="flex items-center gap-2">
                   <img src="images/icons/hotel-icon.png" class="w-5 h-5" />
-                  <p class="text-lg">hotel chains</p>
+                  <p class="text-base">hotel chains</p>
                 </div>
                 <div class="flex items-center gap-2">
                   <img src="images/icons/developer-icon.png" class="w-5 h-5" />
-                  <p class="text-lg">property developers</p>
+                  <p class="text-base">property developers</p>
                 </div>
                 <div class="flex items-center gap-2">
                   <img
                     src="images/icons/construction-icon.png"
                     class="w-5 h-5"
                   />
-                  <p class="text-lg">facilities managers</p>
+                  <p class="text-base">facilities managers</p>
                 </div>
               </div>
+            </div>
+            <div class="w-full h-auto justify-self-center">
+              <img
+                src="images/who.png"
+                alt="Image of a meeting with clients (not specifically supplymee.io's clients)."
+              />
             </div>
           </div>
 
           <div
             class="grid items-center grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 py-12 sm:py-16 lg:py-20 xl:py-28"
           >
-            <div class="md:order-last justify-self-center">
+            <div class="order-last md:order-1 justify-self-center">
               <img
                 class="w-full"
-                src="images/how.webp"
+                src="images/how.png"
                 alt="An image of a worker grinding metal in a factory."
               />
             </div>
 
             <div class="text-left">
               <h3
-                class="text-4xl md:text-5xl xl:text-6xl font-semibold text-adopt mb-5 text-mee"
+                class="text-4xl md:text-5xl xl:text-6xl font-semibold mb-5 text-mee"
               >
-                how we do what <br />
+                How we do what <br />
                 we do?
               </h3>
               <p
-                class="mt-3 text-lg font-normal text-black-3 mb-4 leading-relaxed"
+                class="mt-3 text-base font-normal text-black-3 mb-4 leading-relaxed"
               >
-                by partnering with the best manufacturers for each industry that
+                By partnering with the best manufacturers for each industry that
                 we serve, locally and internationally, we provide our customers
                 with the best quality products, at a far reduced rate.<br /><br />
-                foremost in our minds is the sustainability and policies our
+                Foremost in our minds is the sustainability and policies our
                 suppliers value. We partner only with those whose impact is
                 positive, on their employees and to the world as a whole.
               </p>
@@ -338,27 +341,63 @@
           <div
             class="grid items-center grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 py-12 sm:py-16 lg:py-20 xl:py-28"
           >
+            <div class="text-left">
+              <h3
+                class="text-4xl md:text-5xl xl:text-6xl font-semibold mb-5 text-mee"
+              >
+                What we do?
+              </h3>
+              <p
+                class="mt-3 text-base font-normal text-black-3 mb-4 leading-relaxed"
+              >
+                We offer a complete solution of “after-construction” materials,
+                providing a range of furniture, lighting, fabrics and flooring.
+                This solution aims to make the process of procuring the most
+                common materials in the hospitality and commercial industry as
+                easy, and quick as possible.
+              </p>
+            </div>
             <div class="justify-self-center">
               <img
                 class="w-full"
-                src="images/what.webp"
+                src="images/what.png"
+                alt="An image of a family of downlights."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+
+    <section class="py-12 sm:py-16 lg:py-20 bg-[#FDFBFB]">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="mx-auto mt-12 sm:mt-16 lg:mt-20">
+          <div class="grid items-start grid-cols-1 md:grid-cols-2 md:gap-x-16">
+            <div class="order-last md:order-first justify-self-center">
+              <img
+                class="w-full md:w-10/12 h-auto"
+                src="images/comparison-table.png"
                 alt="An image of a family of downlights."
               />
             </div>
             <div class="text-left">
               <h3
-                class="text-4xl md:text-5xl xl:text-6xl font-semibold text-adopt mb-5 text-mee"
+                class="text-4xl md:text-5xl xl:text-6xl font-semibold mb-5 text-mee"
               >
-                what we do?
+                The supplymee difference
               </h3>
               <p
-                class="mt-3 text-lg font-normal text-black-3 mb-4 leading-relaxed"
+                class="mt-3 text-base font-normal text-black-3 mb-4 leading-relaxed"
               >
-                we offer a complete solution of “after-construction” materials,
-                providing a range of furniture, lighting, fabrics and flooring.
-                This solution aims to make the process of procuring the most
-                common materials in the hospitality and commercial industry as
-                easy, and quick as possible.
+                “I can’t wait to deal with a lot of different suppliers” -
+                nobody ever.<br /><br />
+
+                Working with multiple suppliers can be filled with headaches an
+                expensive mistakes. Working with us removes those headaches and
+                makes the process of getting what you want, when you want it so
+                much easier.
               </p>
             </div>
           </div>
@@ -368,12 +407,15 @@
 
     <!-- CTA Section -->
 
-    <section class="pb-12 sm:pb-16 lg:pb-20 xl:pb-24">
+    <section
+      class="bg-gradient-to-r from-mee to-[#A4317F] my-12 sm:my-16 lg:my-20 xl:my-24"
+    >
       <div class="px-4 sm:px-6 lg:px-8 w-full">
-        <div
-          class="bg-gradient-to-r from-mee to-[#A4317F] py-16 px-10 relative w-full"
-        >
-          <img src="images/line.png" class="absolute -top-2 h-96 right-5" />
+        <div class="py-16 px-10 relative w-full">
+          <img
+            src="images/line.png"
+            class="absolute -top-2 h-96 right-5 hidden md:block"
+          />
           <h2 class="text-white text-5xl font-bold">let's work together.</h2>
           <p class="text-xl text-white pt-20">
             let’s make your life easier, your projects<br />
