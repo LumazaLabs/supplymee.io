@@ -46,7 +46,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#why-h1", {
     scrollTrigger: {
       trigger: "#why-h1",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -57,7 +56,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#why-boxes div", {
     scrollTrigger: {
       trigger: "#why-boxes div",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -70,7 +68,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#who-section div", {
     scrollTrigger: {
       trigger: "#who-section div",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -83,7 +80,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#how-section div", {
     scrollTrigger: {
       trigger: "#how-section div",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -96,7 +92,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#what-section div", {
     scrollTrigger: {
       trigger: "#what-section div",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -109,7 +104,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#comparison-section div", {
     scrollTrigger: {
       trigger: "#comparison-section div",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -122,7 +116,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#product-h1", {
     scrollTrigger: {
       trigger: "#product-h1",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -134,7 +127,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#product-1", {
     scrollTrigger: {
       trigger: "#product-1",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -146,7 +138,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#product-2", {
     scrollTrigger: {
       trigger: "#product-1",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
@@ -158,7 +149,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   gsap.from("#cta-text", {
     scrollTrigger: {
       trigger: "#product-1",
-      markers: true,
       toggleActions: "play none none none",
     },
     y: 160,
