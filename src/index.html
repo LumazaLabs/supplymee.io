@@ -71,7 +71,9 @@
               class="text-left text-5xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold pb-10 relative text-mee"
             >
               making your life easier if you're a
-              <span id="text-animation">property developer</span>.
+              <span class="whitespace-break-spaces" id="text-animation"
+                >property developer</span
+              >.
             </h1>
             <div class="pt-6 md:pt-10">
               <p class="text-lg">
@@ -221,10 +223,14 @@
     <section class="pt-12 sm:pt-16 lg:pt-20 xl:pt-28">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="">
-          <h2 class="text-mee text-4xl lg:text-5xl xl:text-6xl font-bold">
+          <h2
+            id="why-h1"
+            class="text-mee text-4xl lg:text-5xl xl:text-6xl font-bold"
+          >
             why we do what we do
           </h2>
           <div
+            id="why-boxes"
             class="grid grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-16 mt-20"
           >
             <!-- grid grid-cols-1 gap-5 mt-12 lg:grid-cols-3 lg:mt-20 lg:gap-x-12 -->
@@ -255,7 +261,10 @@
     <section class="py-12 sm:py-16 lg:py-20 xl:py-28">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="mx-auto mt-12 sm:mt-16 lg:mt-20">
+          <!-- WHO -->
+
           <div
+            id="who-section"
             class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 pb-20 items-center"
           >
             <div class="text-left">
@@ -308,6 +317,7 @@
           </div>
 
           <div
+            id="how-section"
             class="grid items-center grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 py-12 sm:py-16 lg:py-20 xl:py-28"
           >
             <div class="order-last md:order-1 justify-self-center">
@@ -339,6 +349,7 @@
           </div>
 
           <div
+            id="what-section"
             class="grid items-center grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-8 py-12 sm:py-16 lg:py-20 xl:py-28"
           >
             <div class="text-left">
@@ -374,7 +385,10 @@
     <section class="py-12 sm:py-16 lg:py-20 bg-[#FDFBFB]">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="mx-auto mt-12 sm:mt-16 lg:mt-20">
-          <div class="grid items-start grid-cols-1 md:grid-cols-2 md:gap-x-16">
+          <div
+            id="comparison-section"
+            class="grid items-start grid-cols-1 md:grid-cols-2 md:gap-x-16"
+          >
             <div class="order-last md:order-first justify-self-center">
               <img
                 class="w-full md:w-10/12 h-auto"
@@ -394,7 +408,7 @@
                 “I can’t wait to deal with a lot of different suppliers” -
                 nobody ever.<br /><br />
 
-                Working with multiple suppliers can be filled with headaches an
+                Working with multiple suppliers can be filled with headaches and
                 expensive mistakes. Working with us removes those headaches and
                 makes the process of getting what you want, when you want it so
                 much easier.
@@ -411,11 +425,13 @@
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="mx-auto mt-12 sm:mt-16 lg:mt-20">
           <h2
+            id="product-h1"
             class="text-mee text-4xl lg:text-5xl xl:text-6xl font-bold text-center"
           >
             Available Products
           </h2>
           <div
+            id="product-1"
             class="grid items-start grid-cols-4 gap-x-3 md:gap-x-16 mt-10 md:mt-16 lg:mt-20"
           >
             <div class="flex flex-col items-center justify-center">
@@ -460,6 +476,7 @@
             </div>
           </div>
           <div
+            id="product-2"
             class="grid items-start grid-cols-3 gap-x-3 md:gap-x-16 mt-4 md:mt-10 lg:mt-16 mx-auto max-w-64 sm:max-w-xs md:max-w-2xl lg:max-w-3xl xl:max-w-4xl"
           >
             <div class="flex flex-col items-center justify-center">
@@ -503,10 +520,10 @@
       class="bg-gradient-to-r from-mee to-[#A4317F] mt-12 sm:mt-16 lg:mt-20 xl:mt-24"
     >
       <div class="px-4 sm:px-6 lg:px-8 w-full">
-        <div class="py-16 px-10 relative w-full">
+        <div id="cta-text" class="py-16 px-10 relative w-full">
           <img
             src="images/line.png"
-            class="absolute -top-2 h-96 right-5 hidden md:block"
+            class="absolute -top-2 h-96 right-5 hidden md:hidden -z-50"
           />
           <h2 class="text-white text-5xl font-bold">let's work together.</h2>
           <p class="text-xl text-white pt-20">
@@ -524,8 +541,31 @@
     </section>
 
     <!-- Footer -->
-    <section class="py-4 md:py-6 bg-gray-100">
-      <div class="px-4 sm:px-6 lg:px-8 text-right">
+    <section class="py-4 md:py-6 bg-black z-[100] text-white">
+      <div class="px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-white text-3xl lg:text-4xl xl:text-5xl font-bold text-left pt-28"
+        >
+          Contact us.
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 mt-24 mb-16 gap-8">
+          <div>
+            <p class="text-xs tracking-widest opacity-60">CALL US</p>
+            <a
+              class="block text-xl underline mt-2 md:mt-4"
+              href="tel:+27661018392"
+              >+27 66 101 8392</a
+            >
+          </div>
+          <div>
+            <p class="text-xs tracking-widest opacity-60">EMAIL US</p>
+            <a
+              class="block text-xl underline mt-2 md:mt-4"
+              href="mailto:info@meecorp.co.za"
+              >info@meecorp.co.za</a
+            >
+          </div>
+        </div>
         <p>copyright © 2024 MEE CORP dba supplymee</p>
       </div>
     </section>
@@ -533,4 +573,5 @@
   <script src="text-animation.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 </html>
